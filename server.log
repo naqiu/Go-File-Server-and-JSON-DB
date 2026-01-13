@@ -1,0 +1,9 @@
+2026/01/13 15:27:31 --- Server Starting ---
+2026/01/13 15:27:31 PID 11828 written to server.pid
+2026/01/13 15:27:31 ⚠️  Warning: Could not update hosts file: open C:\Windows\System32\drivers\etc\hosts: Access is denied.
+2026/01/13 15:27:31    (Run as Administrator to enable custom domains)
+2026/01/13 15:27:31 Starting server on port 9000...
+2026/01/13 15:27:31 Serving: http://myserver.local:9000/ -> .
+2026/01/13 15:27:31 Serving: http://docs.local:9000/ -> ./docs
+2026/01/13 15:27:49 📝 Request to update: guestbook
+2026/01/13 15:27:49 ✅ guestbook updated successfully.
