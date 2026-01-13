@@ -1,14 +1,14 @@
-Pretty-URL-Local-Hosting-Basic-JSON-DB
+#Pretty-URL-Local-Hosting-Basic-JSON-DB
 
 naqiu/Pretty-URL-Local-Hosting-Basic-JSON-DB
 
 A professional local multi-site web server featuring XML Configuration, Pretty URLs, and an integrated JSON Database. This tool allows you to host multiple local domains (Virtual Hosts) from a single instance with automatic system hosts file synchronization.
 
-🚀 Overview
+##🚀 Overview
 
 This application uses a Config.xml file to map local domains to specific paths on your machine. It combines professional-grade multi-site hosting with a lightweight JSON flat-file database system, making it ideal for developers who need to test domain-based configurations locally without manual DNS management.
 
-✨ Key Features
+##✨ Key Features
 
 Multi-Site Hosting: Map different local domains (Virtual Hosts) to specific files or folders via a central XML config.
 
@@ -24,7 +24,7 @@ Access via API: GET / POST to /api/db/<filename>.
 
 Example: /api/db/guestbook reads or writes to db/guestbook.json.
 
-🛠️ Configuration (Config.xml)
+##🛠️ Configuration (Config.xml)
 
 The server behavior is defined in Config.xml. You can specify a global port and multiple individual site mappings:
 
@@ -45,7 +45,7 @@ The server behavior is defined in Config.xml. You can specify a global port and 
 </Config>
 
 
-📂 JSON Database API
+##📂 JSON Database API
 
 The built-in database allows you to interact with local JSON files via HTTP requests. All data files are located in the db/ directory.
 
@@ -74,6 +74,6 @@ http://guestbook.local:9000/api/db/messages
 Saves/Updates db/messages.json with JSON body
 
 
-📄 License
+##📄 License
 
 Distributed under the MIT License.
